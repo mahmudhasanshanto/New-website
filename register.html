@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register page</title>
+</head>
+<body>
+    <!-- Page heading -->
+<h1>Register page</h1>
+<hr /> 
+<!-- <Form> -->
+<form>
+<input type="text" name="F-name" placeholder="Name"/><br />
+<input type="email" name="mail" placeholder="Email"/><br />
+    
+<!-- Radio Start -->
+  <label>What is your Gender?</label><br />
+  <input type="radio" id="Male" name="gender" value="Male"/>
+  <label for="male">Male</label>
+  <input type="radio" id="Female" name="gender" value="Female"/>
+  <label for="css">Female</label>
+  <input type="radio" id="Other" name="gender" value="Other"/>
+  <label for="other">Other</label><br/>
+
+  <!-- Radio end -->
+
+  <!-- Select Start -->
+   <label for="occu"> Are you a?</label><br />
+   <select name="occu" id="occupation">
+    <option value="Student">Student</option>
+    <option value="Teacher">Teacher</option>
+    <option value="Nothing">Nothing</option></select><br />
+  
+  
+    <!-- Select end -->
+<input type="password" name="password" placeholder="password"><br />
+<input type="password" name="c-password" placeholder="confirm password"><br />
+<input type="submit" value="register"/>
+    
+    
+</form>    
+<p>Already have an account? please <a href="../index.html" target="_blank">login hare</a></p>
+</body> 
+</html>
